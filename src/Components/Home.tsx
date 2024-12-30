@@ -4,22 +4,22 @@ import { Link } from "react-router-dom";
 
 const tableContent=[{link:"admin",name:"प्रशासन",name_eng:"Admin",num:"253",num2:"253",job:"OFFICIAL BAG/LADIES PURSE REI...",by:"boardadmin",date:"10 Sep 2024, 16:51"},
   {link:"cghs", name:"सीजीएचएस",name_eng:"CGHS",num:"12",num2:"12",job:"CGHS LATEST GUIDELINES",by:"saketmital",date:"01 Jul 2024, 12:30"},
-  {link:"Csd_Canteen", name:"सीजीएचएस",name_eng:"CSD Canteen",num:"12",num2:"12",job:"CSD Indicative Rate List as o...",by:"abdultauheed",date:"22 Oct 2024, 10:52"},
-  {link:"Finance", name:"सीजीएचएस",name_eng:"Finance",num:"7",num2:"7",job:"TA/DA FORMS 2024",by:"finance",date:"18 Apr 2024, 14:59"},
-  {link:"HRD", name:"सीजीएचएस",name_eng:"HRD",num:"16",num2:"16",job:"Training Completion Form",by:"boardadmin",date:"05 Jul 2024, 15:53"},
-  {link:"ITR", name:"सीजीएचएस",name_eng:"Information Technology Group",num:"62",num2:"62",job:"PUTTY",by:"boardadmin",date:"12 sep 2024, 17:01"},
-  {link:"Instrumentation", name:"सीजीएचएस",name_eng:"Instrumentation",num:"2",num2:"2",job:"Instrumentation Requisition F...",by:"sanjeevkumar",date:"08 Oct 2018, 14:57"},
-  {link:"Library", name:"सीजीएचएस",name_eng:"Library",num:"27",num2:"27",job:"Wiley eBooks - SSPL",by:"library",date:"25 Apr 2023, 15:00"},
-  {link:"Material_Management", name:"सीजीएचएस",name_eng:"Material Management Group",num:"52",num2:"52",job:"Pre-Contracted Section New Forms",by:"boardadmin",date:"15 Mar 2023, 10:26"},
-  {link:"Mask_facility", name:"सीजीएचएस",name_eng:"Mask Facility",num:"0",num2:"0",job:"No posts"},
-  {link:"Public", name:"सीजीएचएस",name_eng:"Public",num:"38",num2:"38",job:"PDF Merging & Spliting Software",by:"saketmital",date:"04 Jan 2024, 13:25"},
-  {link:"Oms_group", name:"सीजीएचएस",name_eng:"OMS Group",num:"4",num2:"4",job:"Lecture on World Quality Day'...",by:"veenamakhija",date:"27 Nov 2018, 16:45"},
-  {link:"Solid_State", name:"सीजीएचएस",name_eng:"Solid State Physics Laboratory",num:"21",num2:"21",job:"DRDO Oration Series ''Secrets...",by:"boardadmin",date:"20 Jan 2020, 14:56"},
-  {link:"Sports", name:"सीजीएचएस",name_eng:"Sports",num:"2",num2:"2",job:"North zone TT result",by:"boardadmin",date:"07 Sep 2018, 16:33"},
-  {link:"Technical", name:"सीजीएचएस",name_eng:"Technical Secreteriat",num:"1",num2:"1",job:"Form Format TS",by:"boardadmin",date:"02 May 2017, 11:34"},
-  {link:"Wet_canteen", name:"सीजीएचएस",name_eng:"Wet Canteen",num:"0",num2:"0",job:"No posts"},
-  {link:"Works_section", name:"सीजीएचएस",name_eng:"Works Section",num:"1",num2:"1",job:"Requisition Form For Hygiene ...",by:"sktomar",date:"24 Nov 2021, 17:42"},
-  {link:"Workshop", name:"सीजीएचएस",name_eng:"Workshop",num:"1",num2:"1",job:"Work Order (MACHINE SHOP)",by:"boardadmin",date:"25 Jul 2024, 16:37"}
+  {link:"Csd_Canteen", name:"सीेेएसडी कैंटीन",name_eng:"CSD Canteen",num:"12",num2:"12",job:"CSD Indicative Rate List as o...",by:"abdultauheed",date:"22 Oct 2024, 10:52"},
+  {link:"Finance", name:"वित्त",name_eng:"Finance",num:"7",num2:"7",job:"TA/DA FORMS 2024",by:"finance",date:"18 Apr 2024, 14:59"},
+  {link:"HRD", name:"एचआरडी",name_eng:"HRD",num:"16",num2:"16",job:"Training Completion Form",by:"boardadmin",date:"05 Jul 2024, 15:53"},
+  {link:"ITR", name:"सूचना प्रौधोगिकी समूह",name_eng:"Information Technology Group",num:"62",num2:"62",job:"PUTTY",by:"boardadmin",date:"12 sep 2024, 17:01"},
+  {link:"Instrumentation", name:"उपकरण",name_eng:"Instrumentation",num:"2",num2:"2",job:"Instrumentation Requisition F...",by:"sanjeevkumar",date:"08 Oct 2018, 14:57"},
+  {link:"Library", name:"पुस्तकालय",name_eng:"Library",num:"27",num2:"27",job:"Wiley eBooks - SSPL",by:"library",date:"25 Apr 2023, 15:00"},
+  {link:"Material_Management", name:"सामग्री प्रबंधन समूह",name_eng:"Material Management Group",num:"52",num2:"52",job:"Pre-Contracted Section New Forms",by:"boardadmin",date:"15 Mar 2023, 10:26"},
+  {link:"Mask_facility", name:"मास्क सुविधा",name_eng:"Mask Facility",num:"0",num2:"0",job:"No posts"},
+  {link:"Public", name:"जनता",name_eng:"Public",num:"38",num2:"38",job:"PDF Merging & Spliting Software",by:"saketmital",date:"04 Jan 2024, 13:25"},
+  {link:"Oms_group", name:"क्युएमएस समूह",name_eng:"QMS Group",num:"4",num2:"4",job:"Lecture on World Quality Day'...",by:"veenamakhija",date:"27 Nov 2018, 16:45"},
+  {link:"Solid_State", name:"ठोसावस्था भौतिकी प्रयोगशाला",name_eng:"Solid State Physics Laboratory",num:"21",num2:"21",job:"DRDO Oration Series ''Secrets...",by:"boardadmin",date:"20 Jan 2020, 14:56"},
+  {link:"Sports", name:"खेल",name_eng:"Sports",num:"2",num2:"2",job:"North zone TT result",by:"boardadmin",date:"07 Sep 2018, 16:33"},
+  {link:"Technical", name:"तकनीकी सचिवालय",name_eng:"Technical Secreteriat",num:"1",num2:"1",job:"Form Format TS",by:"boardadmin",date:"02 May 2017, 11:34"},
+  {link:"Wet_canteen", name:"जलपान ग्रह",name_eng:"Wet Canteen",num:"0",num2:"0",job:"No posts"},
+  {link:"Works_section", name:"वक्सॅ खंड",name_eng:"Works Section",num:"1",num2:"1",job:"Requisition Form For Hygiene ...",by:"sktomar",date:"24 Nov 2021, 17:42"},
+  {link:"Workshop", name:"",name_eng:"Workshop",num:"1",num2:"1",job:"Work Order (MACHINE SHOP)",by:"boardadmin",date:"25 Jul 2024, 16:37"}
 ]
 
 function Home() {
